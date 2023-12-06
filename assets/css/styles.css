@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Esqueleto_Off {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 500px;
+    height: 620px;
+    background-color: #000;
+    border: 0.2rem solid #4e79ff; 
+    border-radius: 5vh;
+    margin-top: 2rem;
+    background-image: url(../img/esqueleto2.png);
+    box-shadow: inset 0px 0px 20px 10px #4e79ff; 
+}
+
+.Esqueleto_Off.Dance {
+    background-image: url(../img/esqueleto1.gif);
+}
+
+.Esqueleto_On_Off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 135px;
+    border: 0.2rem solid #ffcc00; 
+    border-radius: 3vh;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.699); 
+    box-shadow: inset 0px 0px 20px 5px #000; 
+    font-size: 2rem;
+    color: #ffcc00; 
+    cursor: pointer;
+}
+
+.Esqueleto_On_Off:hover {
+    background-color: #d71b1b; 
+}
